@@ -10,7 +10,7 @@ const cx = classNames.bind(styles);
 const Navigation = ({ user, logOut }) => {
     return (
       <nav className={cx('navigation')} role="navigation">
-        <Link
+        <IndexLink
           to="/"
           className={cx('item', 'logo')}
           activeClassName={cx('active')}>Ninja Ocean</Link>
